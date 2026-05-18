@@ -1,5 +1,5 @@
 function getMessage() {
-  fetch("http://EC2_PUBLIC_IP:3000/api/message")
+  fetch("http://44.243.40.25:3000")
     .then(res => res.json())
     .then(data => {
       document.getElementById("result").innerText = data.message;
